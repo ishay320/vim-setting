@@ -13,4 +13,4 @@ ln -s "${BASE_FOLDER}"/.vim ~/.vim || true
 
 git submodule update --init --progress
 
-# vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
