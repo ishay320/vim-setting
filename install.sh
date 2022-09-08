@@ -8,8 +8,9 @@ set -xe
 
 BASE_FOLDER=$(pwd)
 
-ln -s "${BASE_FOLDER}"/.vimrc ~/.vimrc
-ln -s "${BASE_FOLDER}"/.vim ~/.vim
+ln -s "${BASE_FOLDER}"/.vimrc ~/.vimrc || true
+ln -s "${BASE_FOLDER}"/.vim ~/.vim || true
 
-git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
-vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+git submodule update --init --progress
+
+# vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
