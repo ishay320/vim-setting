@@ -226,3 +226,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " Disable startup warning
 let g:coc_disable_startup_warning = 1
 """ coc
+
+""" color brackets
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
+""" color brackets
