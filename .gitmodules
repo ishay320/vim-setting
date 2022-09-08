@@ -10,3 +10,6 @@
 [submodule ".vim/pack/vendor/start/rainbow"]
 	path = .vim/pack/vendor/start/rainbow
 	url = https://github.com/luochen1990/rainbow
+[submodule ".vim/pack/vendor/start/auto-pairs"]
+	path = .vim/pack/vendor/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
