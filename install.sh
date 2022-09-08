@@ -13,4 +13,11 @@ ln -s "${BASE_FOLDER}"/.vim ~/.vim || true
 
 git submodule update --init --progress
 
+# coc installation
+sudo apt update
+sudo apt install nodejs ccls -y
+pushd .vim/pack/vendor/start/coc.nvim/
+npm install
+popd
+
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q

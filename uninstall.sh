@@ -5,3 +5,5 @@
 
 PS4="\033[34m>>\033[0m "
 set -xe
+
+rm -r ~/.vim ~/.vimrc
