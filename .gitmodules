@@ -13,3 +13,6 @@
 [submodule ".vim/pack/vendor/start/auto-pairs"]
 	path = .vim/pack/vendor/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule ".vim/pack/vendor/start/vim-gitgutter"]
+	path = .vim/pack/vendor/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
